@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: aaf334c393b74de49bc98247ef577db1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - grabInteractable: {fileID: 972089477478887865, guid: 845ce98fd88ba2548a8411bcc921445f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
