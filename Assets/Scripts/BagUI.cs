@@ -24,6 +24,9 @@ public class BagUI : MonoBehaviour
     
     public void updateUI(HashSet<Item> itemsInBag, List<(Item.Category, int)> itemsRequired)
     {
+        GameManager.shoppingFinished = false;
+        
+        var checkmarks = 0;
         List<(Item.Category, int)> categorizedItemsInBag = new List<(Item.Category, int)>();
         foreach (var item in itemsInBag)
         {
@@ -54,7 +57,11 @@ public class BagUI : MonoBehaviour
             {
                 shoppingList[categorizedItemsInBag[i].Item1].fontStyle = FontStyles.Strikethrough;
                 shoppingList[categorizedItemsInBag[i].Item1].color = Color.green;
+                checkmarks++;
             }
         }
+        
+        if (checkmarks == itemsRequired.Count)
+            GameManager.shoppingFinished = true;
     }
 }

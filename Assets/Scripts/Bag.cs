@@ -13,6 +13,7 @@ public class Bag : MonoBehaviour
     
     void Start()
     {
+        GameManager.shoppingFinished = false;
         bagTrigger.onTriggerEnterAction = addItemToBag;
         bagTrigger.onTriggerExitAction = removeItemFromBag;
 
