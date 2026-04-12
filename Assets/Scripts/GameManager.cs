@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject[] ragdollGrandmas;
+    
     public static bool shoppingFinished;
     public Trigger entranceTrigger;
     public Trigger exitTrigger;
@@ -30,6 +32,19 @@ public class GameManager : MonoBehaviour
         exitTrigger.onTriggerEnterAction = onDoorExitEnter;
         exitTrigger.onTriggerExitAction = onDoorExitExit;
         aisleTrigger.onTriggerEnterAction = onAisleEnter;
+        
+        for (int i = 0; i < ragdollGrandmas.Length; i++ )
+        {
+            var temp = ragdollGrandmas[i];
+            var random = Random.Range(i, ragdollGrandmas.Length);
+            ragdollGrandmas[i] = ragdollGrandmas[random];
+            ragdollGrandmas[random] = temp;
+        }
+
+        for (int i = 0; i < Random.Range(1, 4); i++)
+        {
+            ragdollGrandmas[i].SetActive(true);
+        }
     }
 
     void Update()
