@@ -31,7 +31,8 @@
           {
             "name": "AnimationClip",
             "scenes": [
-              "Assets/Scenes/Game.unity"
+              "Assets/Scenes/Game.unity",
+              "Assets/Scenes/MainMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -48,7 +49,8 @@
           {
             "name": "AnimatorController",
             "scenes": [
-              "Assets/Scenes/Game.unity"
+              "Assets/Scenes/Game.unity",
+              "Assets/Scenes/MainMenu.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -120,7 +122,8 @@
           {
             "name": "AudioClip",
             "scenes": [
-              "Assets/Scenes/Game.unity"
+              "Assets/Scenes/Game.unity",
+              "Assets/Scenes/MainMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -167,7 +170,8 @@
           {
             "name": "AudioResource",
             "scenes": [
-              "Assets/Scenes/Game.unity"
+              "Assets/Scenes/Game.unity",
+              "Assets/Scenes/MainMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -175,7 +179,8 @@
           {
             "name": "AudioSource",
             "scenes": [
-              "Assets/Scenes/Game.unity"
+              "Assets/Scenes/Game.unity",
+              "Assets/Scenes/MainMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -532,7 +537,8 @@
           {
             "name": "SortingGroup",
             "scenes": [
-              "Assets/Scenes/Game.unity"
+              "Assets/Scenes/Game.unity",
+              "Assets/Scenes/MainMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1091,16 +1097,15 @@
           {
             "name": "CapsuleCollider",
             "scenes": [
-              "Assets/Scenes/Game.unity"
+              "Assets/Scenes/Game.unity",
+              "Assets/Scenes/MainMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "CharacterController",
-            "scenes": [
-              "Assets/Scenes/MainMenu.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -1162,7 +1167,8 @@
           {
             "name": "Rigidbody",
             "scenes": [
-              "Assets/Scenes/Game.unity"
+              "Assets/Scenes/Game.unity",
+              "Assets/Scenes/MainMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1170,7 +1176,8 @@
           {
             "name": "SphereCollider",
             "scenes": [
-              "Assets/Scenes/Game.unity"
+              "Assets/Scenes/Game.unity",
+              "Assets/Scenes/MainMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null

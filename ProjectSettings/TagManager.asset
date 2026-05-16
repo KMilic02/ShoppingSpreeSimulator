@@ -5,6 +5,13 @@ TagManager:
   serializedVersion: 3
   tags:
   - Baba
+  - QDSUIToggleButton
+  - QDSUIIcon
+  - QDSUIToggleBorderlessButton
+  - QDSUITextSecondaryColor
+  - QDSUIToggleCheckboxRadio
+  - QDSUITooltip
+  - QDSUISharedThemeColor
   layers:
   - Default
   - TransparentFX
@@ -37,7 +44,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - OVROverlayCanvas Rendering
   m_SortingLayers:
   - name: Default
     uniqueID: 0
