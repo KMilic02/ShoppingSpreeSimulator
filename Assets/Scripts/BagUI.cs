@@ -26,42 +26,74 @@ public class BagUI : MonoBehaviour
     {
         GameManager.shoppingFinished = false;
         
-        var checkmarks = 0;
-        List<(Item.Category, int)> categorizedItemsInBag = new List<(Item.Category, int)>();
+        Dictionary<Item.Category, int> currentCountsInBag = new Dictionary<Item.Category, int>();
         foreach (var item in itemsInBag)
         {
             if (shoppingList.ContainsKey(item.category))
             {
-                if (!categorizedItemsInBag.Exists(x => x.Item1 == item.category))
-                {
-                    categorizedItemsInBag.Add((item.category, 1));
-                }
+                if (!currentCountsInBag.ContainsKey(item.category))
+                    currentCountsInBag[item.category] = 1;
                 else
-                {
-                    var categorizedItem = categorizedItemsInBag.FindIndex(x => x.Item1 == item.category);
-                    categorizedItemsInBag[categorizedItem] = (item.category, categorizedItemsInBag[categorizedItem].Item2 + 1);
-                }
+                    currentCountsInBag[item.category]++;
             }
         }
 
-        foreach (var val in shoppingList.Values)
+        var completedCategories = 0;
+
+        foreach (var (category, requiredCount) in itemsRequired)
         {
-            val.fontStyle = FontStyles.Normal;
-            val.color = Color.black;
-        }
-        
-        for (int i = 0; i < categorizedItemsInBag.Count; i++)
-        {
-            var itemRequired = itemsRequired.Find(x => x.Item1 == categorizedItemsInBag[i].Item1);
-            if (itemRequired.Item2 == categorizedItemsInBag[i].Item2)
+            if (!shoppingList.ContainsKey(category)) continue;
+
+            int collectedCount = currentCountsInBag.ContainsKey(category) ? currentCountsInBag[category] : 0;
+            TMP_Text uiText = shoppingList[category];
+
+            string tallyString = ConvertToTallies(collectedCount);
+            if (collectedCount == 0) tallyString = "";
+
+            uiText.text = $"{requiredCount}x {Item.name[category]} {tallyString}";
+
+            if (collectedCount == requiredCount)
             {
-                shoppingList[categorizedItemsInBag[i].Item1].fontStyle = FontStyles.Strikethrough;
-                shoppingList[categorizedItemsInBag[i].Item1].color = Color.green;
-                checkmarks++;
+                uiText.fontStyle = FontStyles.Normal; 
+                uiText.color = Color.green;
+                completedCategories++;
+            }
+            else if (collectedCount > requiredCount)
+            {
+                uiText.fontStyle = FontStyles.Bold;
+                uiText.color = new Color(0.9f, 0.2f, 0.2f);
+            }
+            else
+            {
+                uiText.fontStyle = FontStyles.Normal;
+                uiText.color = Color.black;
             }
         }
         
-        if (checkmarks == itemsRequired.Count)
+        if (completedCategories == itemsRequired.Count)
             GameManager.shoppingFinished = true;
+    }
+    
+    private string ConvertToTallies(int number)
+    {
+        if (number <= 0) return "";
+
+        string result = "";
+        int fives = number / 5;
+        int remainder = number % 5;
+
+        string crossedFive = "I\u0336I\u0336I\u0336I\u0336"; 
+
+        for (int i = 0; i < fives; i++)
+        {
+            result += crossedFive + "   ";
+        }
+        
+        for (int i = 0; i < remainder; i++)
+        {
+            result += "I";
+        }
+
+        return result.Trim();
     }
 }

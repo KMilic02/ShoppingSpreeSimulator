@@ -481,7 +481,7 @@
           {
             "name": "RenderTexture",
             "scenes": [
-              "Assets/Scenes/MainMenu.unity"
+              "Assets/Scenes/Game.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1594,8 +1594,7 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/Game.unity",
-              "Assets/Scenes/MainMenu.unity"
+              "Assets/Scenes/Game.unity"
             ],
             "dependencyType": 0,
             "icon": null
