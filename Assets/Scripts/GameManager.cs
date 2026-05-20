@@ -24,10 +24,14 @@ public class GameManager : MonoBehaviour
 	float elapsedTime;
 	public TMP_Text timerText;
     
+    [Header("VR End Game UI Integration")]
+    public EndGameUI endGameUIScript;
+    public Transform playerCamera;
+    public float uiDistanceFromPlayer = 2.0f;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        FindObjectOfType<EndGameUI>().OpenEndGameUI(95f);
         entranceTrigger.onTriggerEnterAction = onDoorEntranceEnter;
         entranceTrigger.onTriggerExitAction = onDoorEntranceExit;
         exitTrigger.onTriggerEnterAction = onDoorExitEnter;
@@ -89,9 +93,31 @@ public class GameManager : MonoBehaviour
     
     void onDoorExitEnter(Collider other)
     {
-        if (!other.CompareTag("Player"))
+        // Smart VR verification check we built earlier
+        bool isPlayer = other.CompareTag("Player") || 
+                        other.transform.root.CompareTag("Player") || 
+                        other.GetComponentInParent<OVRCameraRig>() != null;
+
+        if (!isPlayer) return;
+
+        Debug.Log($"[EXIT STATUS] Player verified! shoppingFinished: {shoppingFinished} | runFinished: {runFinished}");
+
+        // FIX: Now this will pass cleanly because runFinished is still FALSE when you arrive!
+        if (shoppingFinished && !runFinished)
         {
-            return;
+            runFinished = true; // Mark it finished here at the actual exit door
+            timerText.color = Color.green;
+
+            // Open the exit doors up for the celebration
+            StartCoroutine(tween(doorLeft, 0.7f, doorLeft.position, doorLeft.position + doorLeft.right * 1.3f));
+            StartCoroutine(tween(doorRight, 0.7f, doorRight.position, doorRight.position - doorLeft.right * 1.3f));
+
+            Debug.Log("[EXIT SUCCESS] Spawning EndGameUI directly in front of the player!");
+            TriggerVREndGameUI();
+        }
+        else
+        {
+            Debug.LogWarning($"[EXIT BLOCKED] Is shoppingFinished true? ({shoppingFinished}) | Is runFinished false? ({!runFinished})");
         }
     }
     
@@ -126,13 +152,50 @@ public class GameManager : MonoBehaviour
             StartCoroutine(tween(doorRight, 0.7f, doorRight.position, doorRight.position + doorLeft.right * 1.3f));
         }
 
-        if (shoppingFinished)
+        // if (shoppingFinished)
+        // {
+        //     runFinished = true;
+        //     StartCoroutine(tween(doorLeft, 0.7f, doorLeft.position, doorLeft.position + doorLeft.right * 1.3f));
+        //     StartCoroutine(tween(doorRight, 0.7f, doorRight.position, doorRight.position - doorLeft.right * 1.3f));
+        //     timerText.color = Color.green;
+        // }
+    }
+    
+    private void TriggerVREndGameUI()
+    {
+        if (endGameUIScript == null || playerCamera == null)
         {
-            runFinished = true;
-            StartCoroutine(tween(doorLeft, 0.7f, doorLeft.position, doorLeft.position + doorLeft.right * 1.3f));
-            StartCoroutine(tween(doorRight, 0.7f, doorRight.position, doorRight.position - doorLeft.right * 1.3f));
-            timerText.color = Color.green;
+            Debug.LogError("[GAME MANAGER ERROR] Missing EndGameUI or PlayerCamera reference links in GameManager script settings!");
+            return;
         }
+
+        Vector3 headPos = playerCamera.position;
+        Vector3 lookDirection = playerCamera.forward;
+        
+        lookDirection.y = 0;
+        lookDirection.Normalize();
+
+        Vector3 targetUIPosition = headPos + (lookDirection * uiDistanceFromPlayer);
+        
+        targetUIPosition.y = headPos.y; 
+
+        endGameUIScript.transform.position = targetUIPosition;
+        endGameUIScript.transform.rotation = Quaternion.LookRotation(lookDirection);
+
+        endGameUIScript.gameObject.SetActive(true);
+        endGameUIScript.OpenEndGameUI(elapsedTime); 
+    }
+    
+    public void ResetGameVariablesForNewRun()
+    {
+        elapsedTime = 0f;
+        gameStarted = false;
+        runFinished = false;
+        enteredStore = false;
+        shoppingFinished = false;
+        timerText.text = "Time: 0.00";
+        timerText.color = Color.white;
+        Debug.Log("[GAME MANAGER] Run status parameters reset to factory settings!");
     }
 }
 
