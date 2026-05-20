@@ -1,5 +1,6 @@
 ﻿using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class EndGameUI : MonoBehaviour
@@ -15,11 +16,11 @@ public class EndGameUI : MonoBehaviour
     {
         finalTime = rawTime;
         gameObject.SetActive(true);
-        
+
         int minutes = Mathf.FloorToInt(finalTime / 60);
         int seconds = Mathf.FloorToInt(finalTime % 60);
         timeDisplayText.text = $"Final Time: {minutes:0}:{seconds:00}";
-        
+
         submitButton.onClick.RemoveListener(SubmitScore);
         submitButton.onClick.AddListener(SubmitScore);
     }
@@ -30,7 +31,7 @@ public class EndGameUI : MonoBehaviour
 
         string playerName = string.IsNullOrEmpty(nameInputField.text) ? "Anonymous" : nameInputField.text;
         LeaderboardManager.SaveScore(playerName, finalTime);
-        
+
         if (leaderboardPosterDisplay != null)
         {
             LeaderboardPoster posterScript = leaderboardPosterDisplay.GetComponent<LeaderboardPoster>();
@@ -58,29 +59,8 @@ public class EndGameUI : MonoBehaviour
             gm.ResetGameVariablesForNewRun();
         }
 
-        GameObject playerObj = GameObject.FindGameObjectWithTag("Player"); 
-        if (playerObj != null)
-        {
-            CharacterController cc = playerObj.GetComponent<CharacterController>();
-            Rigidbody rb = playerObj.GetComponent<Rigidbody>();
-
-            if (cc != null) cc.enabled = false; 
-
-            if (rb != null)
-            {
-                rb.linearVelocity = Vector3.zero;
-                rb.angularVelocity = Vector3.zero;
-            }
-
-            Vector3 safeSpawnPos = new Vector3(17.84f, 0f, -3.067f);
-            playerObj.transform.position = safeSpawnPos;
-            playerObj.transform.rotation = Quaternion.identity;
-
-            if (cc != null) cc.enabled = true;
-
-            Debug.Log("[END GAME UI] Teleported player safely above the floor grid.");
-        }
-
-        gameObject.SetActive(false);
+        Debug.Log("[END GAME UI] Reloading active scene file...");
+        Scene activeScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(activeScene.name);
     }
 }

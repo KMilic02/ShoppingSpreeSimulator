@@ -25,14 +25,14 @@ public class Bag : MonoBehaviour
     {
         // Item.Category testCategory = Item.Category.Plate; 
         //
-        // int quantityRequired = 1; // Force it to require exactly 1 item!
+        // int quantityRequired = 1;
         //
         // itemsRequired.Add((testCategory, quantityRequired));
         //
         // Debug.Log($"[BAG TEST MODE] Required items overridden! You only need to collect {quantityRequired} x {testCategory} to finish.");
         
         Array values = Enum.GetValues(typeof(Item.Category));
-        var randomCount = Random.Range(3, 6);
+        var randomCount = Random.Range(3, 4);
         
         int[] enumValues = new int[values.Length];
         for (int i = 0; i < values.Length; i++)

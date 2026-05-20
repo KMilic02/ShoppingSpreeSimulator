@@ -147,7 +147,6 @@ struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184;
 struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
 struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
 struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
-struct CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A;
 struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76;
 struct Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0;
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
@@ -289,7 +288,6 @@ IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C
 IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Predicate_1_tDF8F70C8D505D46B036F1C5F5089459C9D44A2FD_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass3_0_t372947408BFC2942F0942D8B8535A08810508333_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass6_0_tDA035398DA2268D2F758A5326DC44119798C1DD6_il2cpp_TypeInfo_var;
@@ -330,7 +328,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral7084B5B0E814997AF33DB5C67A0C7CEADF89D470
 IL2CPP_EXTERN_C String_t* _stringLiteral738AE1FD4B4699B79ACD473ABDCB70AA7EE37834;
 IL2CPP_EXTERN_C String_t* _stringLiteral771A87963A6C870913C2C0856958D775C297769C;
 IL2CPP_EXTERN_C String_t* _stringLiteral7BE4C402597105DC2D31AFBE525B83E95A76FA16;
-IL2CPP_EXTERN_C String_t* _stringLiteral7C1B439327974CAD5B69C095BB9E554586783245;
 IL2CPP_EXTERN_C String_t* _stringLiteral7C35BF668BF909C0F34C9387691C090BA0BB37B9;
 IL2CPP_EXTERN_C String_t* _stringLiteral7E24730C90000C424618A9F78F4E0FF42F3C27E3;
 IL2CPP_EXTERN_C String_t* _stringLiteral84E2DB30A89EF31CF22A06C077C788D084ED9BFD;
@@ -355,6 +352,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralB028BEC8DB08052F852C838672416D0F38603A20
 IL2CPP_EXTERN_C String_t* _stringLiteralB2877D7069E94A5245B4831F7BFBF5BFCAEB5177;
 IL2CPP_EXTERN_C String_t* _stringLiteralB419CFD5B49CDCB4D22631C6EFC26C19DF54DC3C;
 IL2CPP_EXTERN_C String_t* _stringLiteralBF837D8F1846240F7C18835521C66708F4732EF0;
+IL2CPP_EXTERN_C String_t* _stringLiteralC13153A349B0D9C22669BB536F53EA518298ECC0;
 IL2CPP_EXTERN_C String_t* _stringLiteralC143EFE0F49A4D1EB670F18DC225F52C88253323;
 IL2CPP_EXTERN_C String_t* _stringLiteralCAF8804297181FF007CA835529DD4477CFD94A70;
 IL2CPP_EXTERN_C String_t* _stringLiteralCCDC29498B3BF34D9BD6A96F128A9B94C8010C1A;
@@ -403,10 +401,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* GameManager_onDoorExitEnter_m90F00C43CFED88
 IL2CPP_EXTERN_C const RuntimeMethod* GameManager_onDoorExitExit_m6298FB249B3B475453D220C738DB3BA9B3FD2B73_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisGrabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3_m389CC1DF4F38ED6DFF5CCE6C2E5635BB20549D53_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisGrandmaCollision_tEA56CE486EB08F826D9D0AA2E7C22AE98A953F8F_mBD264E585C29EE84DCE95961D7E480C55476A12D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m4848A6B0B029AE9B1F4FE4CC1FDE5E3CF030D325_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisHandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127_mD3FB6F6DD63858091B2A8BFCA526B9BFA3EA1CB4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisLeaderboardPoster_t24C52A76784E9C9AA8F001C8A7312984A664651E_mF09E2EA10853E8F8660247BFF8AED2E53F698486_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m2D7F86C77ECF9B82AAC077B511F1004280571B90_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_Add_mC65E04A5435B1629C6731BF2D3E2EB87997B1F2F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_GetEnumerator_mD780409B06411137FFC1B1D481181D6BEB154BB4_RuntimeMethod_var;
@@ -1565,6 +1561,10 @@ struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5
 {
 	intptr_t ___value;
 };
+struct SceneHandle_t4C3B517546B91EF78A6ED15DDC6C54AB5E03D8A3 
+{
+	EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ___m_Value;
+};
 struct TMP_TextElementType_t51EE6662436732F22C6B599F5757B7F35F706342 
 {
 	int32_t ___value__;
@@ -2318,6 +2318,10 @@ struct PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4_marshaled_com
 		};
 	};
 };
+struct Scene_tA1DC762B79745EB5140F054C884855B922318356 
+{
+	SceneHandle_t4C3B517546B91EF78A6ED15DDC6C54AB5E03D8A3 ___m_Handle;
+};
 struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
 };
@@ -2684,9 +2688,6 @@ struct TMP_TextProcessingStack_1_t2DDA00FFC64AF6E3AFD475AB2086D16C34787E0F
 	int32_t ___m_Count;
 };
 struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
-{
-};
-struct CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A  : public Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76
 {
 };
 struct InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B  : public InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E
@@ -4028,23 +4029,9 @@ inline GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* Object_FindObjectO
 	return ((  GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* (*) (const RuntimeMethod*))Object_FindObjectOfType_TisRuntimeObject_m02DFBF011F3B59F777A5E521DB2A116DD496E968_gshared)(method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ResetGameVariablesForNewRun_m7A22773FC70564C0900FFCC2B0A70AB3A260E2A6 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_FindGameObjectWithTag_mF0229BC2074CE9EEA72FAB1E5A4BC2AEC3D2CDBE (String_t* ___0_tag, const RuntimeMethod* method) ;
-inline CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* GameObject_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m4848A6B0B029AE9B1F4FE4CC1FDE5E3CF030D325 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
-{
-	return ((  CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
-}
-inline Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* GameObject_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m2D7F86C77ECF9B82AAC077B511F1004280571B90 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
-{
-	return ((  Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70 (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* __this, bool ___0_value, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_linearVelocity_m29AE03D5FC079EAD4202FCF72E2AEBDC19363985 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_angularVelocity_m23266B4E52BF0D2E65CC984AC73CC40B8D4A27E0 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B922318356 SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Scene_get_name_m3C818DFA663E159274DAD823B780C7616C5E2A8C (Scene_tA1DC762B79745EB5140F054C884855B922318356* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E (String_t* ___0_sceneName, const RuntimeMethod* method) ;
 inline void Action_1__ctor_m418A172390F959B212680FA280D7027AA7A628F3 (Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
 	((  void (*) (Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___0_object, ___1_method, method);
@@ -4073,7 +4060,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_LookRotation_mDB2CCA75B8E1AB98104F2A6E1A1EA57D0D1298D7_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_forward, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndGameUI_OpenEndGameUI_mB86753B4B4FBBD0A5BF0FB6739E9482C70A62C3F (EndGameUI_t425849680F045A3F3DFEAEA92A5A7405AD157AA4* __this, float ___0_rawTime, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
@@ -4170,7 +4159,6 @@ inline LeaderboardEntry_t9F413B28A218D56D7757AE7B75AFDE90617262CA* List_1_get_It
 	return ((  LeaderboardEntry_t9F413B28A218D56D7757AE7B75AFDE90617262CA* (*) (List_1_tD2F81662A165E685B9CCA71EF6DD5017905C7F6B*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m918500C1EFB475181349A79989BB79BB36102894 (String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E (String_t* ___0_sceneName, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281 (const RuntimeMethod* method) ;
 inline void Action_1_Invoke_m710A549DAF0CC1F321493ADE40308952B1C9A45F_inline (Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_obj, const RuntimeMethod* method)
 {
@@ -4199,6 +4187,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_AddForceAtPosition_m61575E676B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Rigidbody_get_angularVelocity_m4EACCFCF15CA441CCD53B24322C2E7B8EEBDF6A8 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_angularVelocity_m23266B4E52BF0D2E65CC984AC73CC40B8D4A27E0 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_TryGetFeatureValue_mB2C15D1FC747DA9FB5958FA17E77049886FB3BBA (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* __this, InputFeatureUsage_1_tEB160A05BCDCCA4F96072CBA0866498D06B9A27C ___0_usage, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___1_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m357C0E448548E8A57AC1A9BB3672943CE57534AB (U3CU3Ec__DisplayClass3_0_t372947408BFC2942F0942D8B8535A08810508333* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline (const RuntimeMethod* method) ;
@@ -4257,7 +4246,7 @@ inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89319
+// Method Definition Index: 89317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bag_Start_m4A5ACA92FD175A08D930B80170AC7FF1841F5743 (Bag_t759F2562BA584F6FFA75088DAA57F43D9A0CD270* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4297,7 +4286,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bag_Start_m4A5ACA92FD175A08D930B80170AC7
 		return;
 	}
 }
-// Method Definition Index: 89320
+// Method Definition Index: 89318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bag_randomizeRequiredItems_m53AE9341C3970F9A9F08A955A092810FCC5CB00A (Bag_t759F2562BA584F6FFA75088DAA57F43D9A0CD270* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4337,11 +4326,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bag_randomizeRequiredItems_m53AE9341C397
 		L_10 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralA1CDB796011637E8BC7AB5FFD456F177B00F8E45, L_6, L_9, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_10, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/Bag.cs:54>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/Bag.cs:55>
 		return;
 	}
 }
-// Method Definition Index: 89321
+// Method Definition Index: 89319
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bag_addItemToBag_mB6B3D1AB25A7EF58AA4CD4F4C84C84EBCA1B056F (Bag_t759F2562BA584F6FFA75088DAA57F43D9A0CD270* __this, Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* ___0_item, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4351,23 +4340,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bag_addItemToBag_mB6B3D1AB25A7EF58AA4CD4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/Bag.cs:58>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/Bag.cs:59>
 		HashSet_1_tCBA5F559D734C34F1C2D0F8BDC080F756F11A263* L_0 = __this->___itemsInBag;
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_1 = ___0_item;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = HashSet_1_Add_mC65E04A5435B1629C6731BF2D3E2EB87997B1F2F(L_0, L_1, HashSet_1_Add_mC65E04A5435B1629C6731BF2D3E2EB87997B1F2F_RuntimeMethod_var);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/Bag.cs:59>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/Bag.cs:60>
 		BagUI_tEDCD4CF9A246921E29A693394263CA4DBC7A96E6* L_3 = __this->___bagUI;
 		HashSet_1_tCBA5F559D734C34F1C2D0F8BDC080F756F11A263* L_4 = __this->___itemsInBag;
 		List_1_tE5DA0210C83225D1F25DD6A6C1A5A9A7DE9B64B1* L_5 = __this->___itemsRequired;
 		NullCheck(L_3);
 		BagUI_updateUI_m14962804085B1B3836525141E7D36ACD9ED927A5(L_3, L_4, L_5, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/Bag.cs:60>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/Bag.cs:61>
 		return;
 	}
 }
-// Method Definition Index: 89322
+// Method Definition Index: 89320
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bag_removeItemFromBag_mD9EEC683F40914ECBDEDC02FC23E2AF27AB8AD4F (Bag_t759F2562BA584F6FFA75088DAA57F43D9A0CD270* __this, Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* ___0_item, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4377,23 +4366,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bag_removeItemFromBag_mD9EEC683F40914ECB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/Bag.cs:64>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/Bag.cs:65>
 		HashSet_1_tCBA5F559D734C34F1C2D0F8BDC080F756F11A263* L_0 = __this->___itemsInBag;
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_1 = ___0_item;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = HashSet_1_Remove_mE78271D624A039694A8A4CCD2447782392D8A0B3(L_0, L_1, HashSet_1_Remove_mE78271D624A039694A8A4CCD2447782392D8A0B3_RuntimeMethod_var);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/Bag.cs:65>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/Bag.cs:66>
 		BagUI_tEDCD4CF9A246921E29A693394263CA4DBC7A96E6* L_3 = __this->___bagUI;
 		HashSet_1_tCBA5F559D734C34F1C2D0F8BDC080F756F11A263* L_4 = __this->___itemsInBag;
 		List_1_tE5DA0210C83225D1F25DD6A6C1A5A9A7DE9B64B1* L_5 = __this->___itemsRequired;
 		NullCheck(L_3);
 		BagUI_updateUI_m14962804085B1B3836525141E7D36ACD9ED927A5(L_3, L_4, L_5, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/Bag.cs:66>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/Bag.cs:67>
 		return;
 	}
 }
-// Method Definition Index: 89323
+// Method Definition Index: 89321
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bag__ctor_m3534CB014DE09165AEB385BDCAECE8A4F1FD8F9B (Bag_t759F2562BA584F6FFA75088DAA57F43D9A0CD270* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4428,7 +4417,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bag__ctor_m3534CB014DE09165AEB385BDCAECE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89324
+// Method Definition Index: 89322
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BagTrigger_OnTriggerEnter_mE28BD97060930E42226CB285D7F7C481CE6DD17C (BagTrigger_tD1B39E37D8058D0FF5AA12274B1AF42D4FD48B36* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4479,7 +4468,7 @@ IL_001b:
 		return;
 	}
 }
-// Method Definition Index: 89325
+// Method Definition Index: 89323
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BagTrigger_OnTriggerExit_m044A096A4BF50E960079467ACAB2FB2E87B6B4ED (BagTrigger_tD1B39E37D8058D0FF5AA12274B1AF42D4FD48B36* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4530,7 +4519,7 @@ IL_001b:
 		return;
 	}
 }
-// Method Definition Index: 89326
+// Method Definition Index: 89324
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BagTrigger__ctor_mF8F027262C909C92796642C671E544103D3AFD07 (BagTrigger_tD1B39E37D8058D0FF5AA12274B1AF42D4FD48B36* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4546,7 +4535,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BagTrigger__ctor_mF8F027262C909C92796642
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89327
+// Method Definition Index: 89325
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BagUI_initUI_mE4E6EE7F53E79D2FEDFA1226233D7717A960271E (BagUI_tEDCD4CF9A246921E29A693394263CA4DBC7A96E6* __this, List_1_tE5DA0210C83225D1F25DD6A6C1A5A9A7DE9B64B1* ___0_itemsRequired, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4678,7 +4667,7 @@ IL_0091:
 		return;
 	}
 }
-// Method Definition Index: 89328
+// Method Definition Index: 89326
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BagUI_updateUI_m14962804085B1B3836525141E7D36ACD9ED927A5 (BagUI_tEDCD4CF9A246921E29A693394263CA4DBC7A96E6* __this, HashSet_1_tCBA5F559D734C34F1C2D0F8BDC080F756F11A263* ___0_itemsInBag, List_1_tE5DA0210C83225D1F25DD6A6C1A5A9A7DE9B64B1* ___1_itemsRequired, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5064,7 +5053,7 @@ IL_01a6:
 		return;
 	}
 }
-// Method Definition Index: 89329
+// Method Definition Index: 89327
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BagUI_ConvertToTallies_mFB2848E09C053C01210F300A831F3BDEB5EB6C59 (BagUI_tEDCD4CF9A246921E29A693394263CA4DBC7A96E6* __this, int32_t ___0_number, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5172,7 +5161,7 @@ IL_0052:
 		return L_15;
 	}
 }
-// Method Definition Index: 89330
+// Method Definition Index: 89328
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BagUI__ctor_mF116EE0CCCA862B5DA75CE2AA9D8D8CA35357164 (BagUI_tEDCD4CF9A246921E29A693394263CA4DBC7A96E6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5200,7 +5189,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BagUI__ctor_mF116EE0CCCA862B5DA75CE2AA9D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89331
+// Method Definition Index: 89329
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndGameUI_OpenEndGameUI_mB86753B4B4FBBD0A5BF0FB6739E9482C70A62C3F (EndGameUI_t425849680F045A3F3DFEAEA92A5A7405AD157AA4* __this, float ___0_rawTime, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5214,25 +5203,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndGameUI_OpenEndGameUI_mB86753B4B4FBBD0
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:16>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:17>
 		float L_0 = ___0_rawTime;
 		__this->___finalTime = L_0;
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:17>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:18>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:19>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:20>
 		float L_2 = __this->___finalTime;
 		int32_t L_3;
 		L_3 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(((float)(L_2/(60.0f))), NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:20>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:21>
 		float L_4 = __this->___finalTime;
 		int32_t L_5;
 		L_5 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline((fmodf(L_4, (60.0f))), NULL);
 		V_1 = L_5;
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:21>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:22>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_6 = __this->___timeDisplayText;
 		int32_t L_7 = V_0;
 		int32_t L_8 = L_7;
@@ -5244,7 +5233,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndGameUI_OpenEndGameUI_mB86753B4B4FBBD0
 		L_13 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral963B5915E3FC9E0123775DDD9E99AB61CADDE64E, L_9, L_12, NULL);
 		NullCheck(L_6);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_6, L_13);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:23>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:24>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_14 = __this->___submitButton;
 		NullCheck(L_14);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_15;
@@ -5253,7 +5242,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndGameUI_OpenEndGameUI_mB86753B4B4FBBD0
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_16, __this, (intptr_t)((void*)EndGameUI_SubmitScore_mCA7C0C0B268DBB0BBD7AB7F3CC1BCB875651B172_RuntimeMethod_var), NULL);
 		NullCheck(L_15);
 		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_15, L_16, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:24>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:25>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_17 = __this->___submitButton;
 		NullCheck(L_17);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_18;
@@ -5262,45 +5251,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndGameUI_OpenEndGameUI_mB86753B4B4FBBD0
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_19, __this, (intptr_t)((void*)EndGameUI_SubmitScore_mCA7C0C0B268DBB0BBD7AB7F3CC1BCB875651B172_RuntimeMethod_var), NULL);
 		NullCheck(L_18);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_18, L_19, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:25>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 89332
+// Method Definition Index: 89330
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndGameUI_SubmitScore_mCA7C0C0B268DBB0BBD7AB7F3CC1BCB875651B172 (EndGameUI_t425849680F045A3F3DFEAEA92A5A7405AD157AA4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m4848A6B0B029AE9B1F4FE4CC1FDE5E3CF030D325_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisLeaderboardPoster_t24C52A76784E9C9AA8F001C8A7312984A664651E_mF09E2EA10853E8F8660247BFF8AED2E53F698486_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m2D7F86C77ECF9B82AAC077B511F1004280571B90_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindObjectOfType_TisGameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_mE5C677E730DDBC0DA49AF7F357BDE2DC9FF98C40_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindObjectOfType_TisOVRVirtualKeyboard_t63B9829B9705A7EBB2E236CA38C35731E0BF8837_m1C532F973B4E1E543CEC971D8B7CFA890BFB0C9E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7C1B439327974CAD5B69C095BB9E554586783245);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral94117513DF600DE48AB30814DFE0C9F032D9120C);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA5D0757EF8BEACBA14CDA7A682748F9DD13A7892);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCAF8804297181FF007CA835529DD4477CFD94A70);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC13153A349B0D9C22669BB536F53EA518298ECC0);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEBE18BFFAD34F151C119871D19F676D2AB191426);
 		s_Il2CppMethodInitialized = true;
 	}
 	OVRVirtualKeyboard_t63B9829B9705A7EBB2E236CA38C35731E0BF8837* V_0 = NULL;
 	GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* V_1 = NULL;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_2 = NULL;
+	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_2;
+	memset((&V_2), 0, sizeof(V_2));
 	LeaderboardPoster_t24C52A76784E9C9AA8F001C8A7312984A664651E* V_3 = NULL;
-	CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* V_4 = NULL;
-	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* V_5 = NULL;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_6;
-	memset((&V_6), 0, sizeof(V_6));
 	String_t* G_B3_0 = NULL;
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:29>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:30>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralEBE18BFFAD34F151C119871D19F676D2AB191426, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:31>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:32>
 		TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* L_0 = __this->___nameInputField;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -5328,10 +5312,10 @@ IL_0029:
 
 IL_002e:
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:32>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:33>
 		float L_5 = __this->___finalTime;
 		LeaderboardManager_SaveScore_m35E2B257230C10D5A5976D0F0ABBAF5F5DC8AF7D(G_B3_0, L_5, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:34>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:35>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___leaderboardPosterDisplay;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -5342,13 +5326,13 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:36>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:37>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___leaderboardPosterDisplay;
 		NullCheck(L_8);
 		LeaderboardPoster_t24C52A76784E9C9AA8F001C8A7312984A664651E* L_9;
 		L_9 = GameObject_GetComponent_TisLeaderboardPoster_t24C52A76784E9C9AA8F001C8A7312984A664651E_mF09E2EA10853E8F8660247BFF8AED2E53F698486(L_8, GameObject_GetComponent_TisLeaderboardPoster_t24C52A76784E9C9AA8F001C8A7312984A664651E_mF09E2EA10853E8F8660247BFF8AED2E53F698486_RuntimeMethod_var);
 		V_3 = L_9;
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:37>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:38>
 		LeaderboardPoster_t24C52A76784E9C9AA8F001C8A7312984A664651E* L_10 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -5359,7 +5343,7 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:39>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:40>
 		LeaderboardPoster_t24C52A76784E9C9AA8F001C8A7312984A664651E* L_12 = V_3;
 		NullCheck(L_12);
 		LeaderboardPoster_DisplayLeaderboard_m6263E263CEF9DF0A8EBA7EBE643F8AA9D4706D13(L_12, NULL);
@@ -5367,12 +5351,12 @@ IL_002e:
 
 IL_0062:
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:43>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:44>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		OVRVirtualKeyboard_t63B9829B9705A7EBB2E236CA38C35731E0BF8837* L_13;
 		L_13 = Object_FindObjectOfType_TisOVRVirtualKeyboard_t63B9829B9705A7EBB2E236CA38C35731E0BF8837_m1C532F973B4E1E543CEC971D8B7CFA890BFB0C9E(Object_FindObjectOfType_TisOVRVirtualKeyboard_t63B9829B9705A7EBB2E236CA38C35731E0BF8837_m1C532F973B4E1E543CEC971D8B7CFA890BFB0C9E_RuntimeMethod_var);
 		V_0 = L_13;
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:44>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:45>
 		OVRVirtualKeyboard_t63B9829B9705A7EBB2E236CA38C35731E0BF8837* L_14 = V_0;
 		bool L_15;
 		L_15 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_14, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -5382,10 +5366,10 @@ IL_0062:
 		}
 	}
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:46>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:47>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralA5D0757EF8BEACBA14CDA7A682748F9DD13A7892, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:47>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:48>
 		OVRVirtualKeyboard_t63B9829B9705A7EBB2E236CA38C35731E0BF8837* L_16 = V_0;
 		NullCheck(L_16);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
@@ -5396,7 +5380,7 @@ IL_0062:
 
 IL_0087:
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:50>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:51>
 		TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* L_18 = __this->___nameInputField;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_19;
@@ -5407,7 +5391,7 @@ IL_0087:
 		}
 	}
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:52>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:53>
 		TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* L_20 = __this->___nameInputField;
 		NullCheck(L_20);
 		TMP_InputField_set_text_m684E9CDA2D9E82D1C497B5E03DBE79C00584FF62(L_20, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -5415,12 +5399,12 @@ IL_0087:
 
 IL_00a5:
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:55>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:56>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_21;
 		L_21 = Object_FindObjectOfType_TisGameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_mE5C677E730DDBC0DA49AF7F357BDE2DC9FF98C40(Object_FindObjectOfType_TisGameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_mE5C677E730DDBC0DA49AF7F357BDE2DC9FF98C40_RuntimeMethod_var);
 		V_1 = L_21;
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:56>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:57>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_22 = V_1;
 		bool L_23;
 		L_23 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_22, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -5430,7 +5414,7 @@ IL_00a5:
 		}
 	}
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:58>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:59>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_24 = V_1;
 		NullCheck(L_24);
 		GameManager_ResetGameVariablesForNewRun_m7A22773FC70564C0900FFCC2B0A70AB3A260E2A6(L_24, NULL);
@@ -5438,134 +5422,23 @@ IL_00a5:
 
 IL_00ba:
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:61>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25;
-		L_25 = GameObject_FindGameObjectWithTag_mF0229BC2074CE9EEA72FAB1E5A4BC2AEC3D2CDBE(_stringLiteralCAF8804297181FF007CA835529DD4477CFD94A70, NULL);
-		V_2 = L_25;
 		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:62>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = V_2;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_27;
-		L_27 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_26, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_27)
-		{
-			goto IL_0164;
-		}
-	}
-	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:65>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = V_2;
-		NullCheck(L_28);
-		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_29;
-		L_29 = GameObject_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m4848A6B0B029AE9B1F4FE4CC1FDE5E3CF030D325(L_28, GameObject_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m4848A6B0B029AE9B1F4FE4CC1FDE5E3CF030D325_RuntimeMethod_var);
-		V_4 = L_29;
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:66>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = V_2;
-		NullCheck(L_30);
-		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_31;
-		L_31 = GameObject_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m2D7F86C77ECF9B82AAC077B511F1004280571B90(L_30, GameObject_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m2D7F86C77ECF9B82AAC077B511F1004280571B90_RuntimeMethod_var);
-		V_5 = L_31;
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:69>
-		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_32 = V_4;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_33;
-		L_33 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_32, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_33)
-		{
-			goto IL_00f3;
-		}
-	}
-	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:69>
-		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_34 = V_4;
-		NullCheck(L_34);
-		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_34, (bool)0, NULL);
-	}
-
-IL_00f3:
-	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:72>
-		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_35 = V_5;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_36;
-		L_36 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_35, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_36)
-		{
-			goto IL_0115;
-		}
-	}
-	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:74>
-		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_37 = V_5;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38;
-		L_38 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
-		NullCheck(L_37);
-		Rigidbody_set_linearVelocity_m29AE03D5FC079EAD4202FCF72E2AEBDC19363985(L_37, L_38, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:75>
-		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_39 = V_5;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40;
-		L_40 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
-		NullCheck(L_39);
-		Rigidbody_set_angularVelocity_m23266B4E52BF0D2E65CC984AC73CC40B8D4A27E0(L_39, L_40, NULL);
-	}
-
-IL_0115:
-	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:80>
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_6), (17.8400002f), (0.0f), (-3.06699991f), NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:81>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_41 = V_2;
-		NullCheck(L_41);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_42;
-		L_42 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_41, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43 = V_6;
-		NullCheck(L_42);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_42, L_43, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:82>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_44 = V_2;
-		NullCheck(L_44);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_45;
-		L_45 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_44, NULL);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_46;
-		L_46 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
-		NullCheck(L_45);
-		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_45, L_46, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:85>
-		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_47 = V_4;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_48;
-		L_48 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_47, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_48)
-		{
-			goto IL_015a;
-		}
-	}
-	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:85>
-		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_49 = V_4;
-		NullCheck(L_49);
-		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_49, (bool)1, NULL);
-	}
-
-IL_015a:
-	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:87>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral7C1B439327974CAD5B69C095BB9E554586783245, NULL);
-	}
-
-IL_0164:
-	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:90>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_50;
-		L_50 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
-		NullCheck(L_50);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_50, (bool)0, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:91>
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralC13153A349B0D9C22669BB536F53EA518298ECC0, NULL);
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:63>
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_25;
+		L_25 = SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8(NULL);
+		V_2 = L_25;
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:64>
+		String_t* L_26;
+		L_26 = Scene_get_name_m3C818DFA663E159274DAD823B780C7616C5E2A8C((&V_2), NULL);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(L_26, NULL);
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/EndGameUI.cs:65>
 		return;
 	}
 }
-// Method Definition Index: 89333
+// Method Definition Index: 89331
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndGameUI__ctor_m232AA32038CB08CC0DC24DA95563788EC988C1A1 (EndGameUI_t425849680F045A3F3DFEAEA92A5A7405AD157AA4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5581,7 +5454,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndGameUI__ctor_m232AA32038CB08CC0DC24DA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89334
+// Method Definition Index: 89332
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5725,7 +5598,7 @@ IL_00cd:
 		return;
 	}
 }
-// Method Definition Index: 89335
+// Method Definition Index: 89333
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5772,7 +5645,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 89336
+// Method Definition Index: 89334
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameManager_tween_m1DD09DD4A79536A9DB17DAB82A4C26D47D5BDD2A (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_target, float ___1_duration, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_from, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_to, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5804,7 +5677,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameManager_tween_m1DD09DD4A79
 		return L_7;
 	}
 }
-// Method Definition Index: 89337
+// Method Definition Index: 89335
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_onDoorEntranceEnter_m4B96131044258BFC8296EFF30D10E9FAF64FE510 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5895,7 +5768,7 @@ IL_00b7:
 		return;
 	}
 }
-// Method Definition Index: 89338
+// Method Definition Index: 89336
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_onDoorExitEnter_m90F00C43CFED88D16621F7EE675FB27F963EF091 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5984,7 +5857,7 @@ IL_0036:
 		L_15 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral5E623FB0DDFE7AE438BB67E13913DDE1843CCD3C, L_11, L_14, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_15, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:106>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:105>
 		bool L_16 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___shoppingFinished;
 		if (!L_16)
 		{
@@ -5999,15 +5872,15 @@ IL_0036:
 		}
 	}
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:108>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:107>
 		__this->___runFinished = (bool)1;
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:109>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:108>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_18 = __this->___timerText;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_19;
 		L_19 = Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline(NULL);
 		NullCheck(L_18);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_18, L_19);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:112>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:110>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20 = __this->___doorLeft;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21 = __this->___doorLeft;
 		NullCheck(L_21);
@@ -6029,7 +5902,7 @@ IL_0036:
 		L_29 = GameManager_tween_m1DD09DD4A79536A9DB17DAB82A4C26D47D5BDD2A(__this, L_20, (0.699999988f), L_22, L_28, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_30;
 		L_30 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_29, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:113>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:111>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31 = __this->___doorRight;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32 = __this->___doorRight;
 		NullCheck(L_32);
@@ -6051,17 +5924,17 @@ IL_0036:
 		L_40 = GameManager_tween_m1DD09DD4A79536A9DB17DAB82A4C26D47D5BDD2A(__this, L_31, (0.699999988f), L_33, L_39, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_41;
 		L_41 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_40, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:115>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:113>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralF042D5AD590661A60A1C4AC3509EC342539F9D81, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:116>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:114>
 		GameManager_TriggerVREndGameUI_m20CB12FF28CF21DFE368474C5101249FCC6644D0(__this, NULL);
 		return;
 	}
 
 IL_0127:
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:120>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:118>
 		bool L_42 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___shoppingFinished;
 		bool L_43 = L_42;
 		RuntimeObject* L_44 = Box(il2cpp_defaults.boolean_class, &L_43);
@@ -6072,11 +5945,11 @@ IL_0127:
 		L_48 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral84E2DB30A89EF31CF22A06C077C788D084ED9BFD, L_44, L_47, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_48, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:122>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:120>
 		return;
 	}
 }
-// Method Definition Index: 89339
+// Method Definition Index: 89337
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_onDoorEntranceExit_mBADAEED1C78F0DB0145D945E7C3BB29BE4CDD888 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6086,16 +5959,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_onDoorEntranceExit_mBADAEED1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:126>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:124>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = ___0_other;
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = Component_CompareTag_mE6F8897E84F12DF12D302FFC4D58204D51096FC5(L_0, _stringLiteralCAF8804297181FF007CA835529DD4477CFD94A70, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:128>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:126>
 		return;
 	}
 }
-// Method Definition Index: 89340
+// Method Definition Index: 89338
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_onDoorExitExit_m6298FB249B3B475453D220C738DB3BA9B3FD2B73 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6105,7 +5978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_onDoorExitExit_m6298FB249B3B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:134>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:132>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = ___0_other;
 		NullCheck(L_0);
 		bool L_1;
@@ -6116,13 +5989,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_onDoorExitExit_m6298FB249B3B
 		}
 	}
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:136>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:134>
 		return;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:139>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:137>
 		bool L_2 = __this->___doorsOpen;
 		if (!L_2)
 		{
@@ -6130,21 +6003,21 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:141>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:139>
 		__this->___doorsOpen = (bool)0;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:143>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:141>
 		return;
 	}
 }
-// Method Definition Index: 89341
+// Method Definition Index: 89339
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_onAisleEnter_m79D689E94635CB8D412EE8564BBC1AE1364D362A (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:147>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:145>
 		bool L_0 = __this->___gameStarted;
 		if (L_0)
 		{
@@ -6152,11 +6025,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_onAisleEnter_m79D689E94635CB
 		}
 	}
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:149>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:147>
 		__this->___gameStarted = (bool)1;
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:150>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:148>
 		__this->___doorsOpen = (bool)0;
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:151>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:149>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->___doorLeft;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___doorLeft;
 		NullCheck(L_2);
@@ -6178,7 +6051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_onAisleEnter_m79D689E94635CB
 		L_10 = GameManager_tween_m1DD09DD4A79536A9DB17DAB82A4C26D47D5BDD2A(__this, L_1, (0.699999988f), L_3, L_9, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_11;
 		L_11 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_10, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:152>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:150>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = __this->___doorRight;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = __this->___doorRight;
 		NullCheck(L_13);
@@ -6204,11 +6077,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_onAisleEnter_m79D689E94635CB
 
 IL_00a9:
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:162>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:160>
 		return;
 	}
 }
-// Method Definition Index: 89342
+// Method Definition Index: 89340
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_TriggerVREndGameUI_m20CB12FF28CF21DFE368474C5101249FCC6644D0 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6226,7 +6099,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_TriggerVREndGameUI_m20CB12FF
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:166>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:164>
 		EndGameUI_t425849680F045A3F3DFEAEA92A5A7405AD157AA4* L_0 = __this->___endGameUIScript;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -6249,32 +6122,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_TriggerVREndGameUI_m20CB12FF
 
 IL_001c:
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:168>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:166>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral126BF09E9DC6AB80AE04A20D3C1B720F7DC7E9C9, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:169>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:167>
 		return;
 	}
 
 IL_0027:
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:172>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:170>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->___playerCamera;
 		NullCheck(L_4);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
 		V_0 = L_5;
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:173>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:171>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->___playerCamera;
 		NullCheck(L_6);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_6, NULL);
 		V_1 = L_7;
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:175>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:173>
 		(&V_1)->___y = (0.0f);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:176>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:174>
 		Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline((&V_1), NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:178>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:176>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_1;
 		float L_10 = __this->___uiDistanceFromPlayer;
@@ -6283,11 +6156,11 @@ IL_0027:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_8, L_11, NULL);
 		V_2 = L_12;
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:180>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:178>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
 		float L_14 = L_13.___y;
 		(&V_2)->___y = L_14;
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:182>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:180>
 		EndGameUI_t425849680F045A3F3DFEAEA92A5A7405AD157AA4* L_15 = __this->___endGameUIScript;
 		NullCheck(L_15);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
@@ -6295,7 +6168,7 @@ IL_0027:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_2;
 		NullCheck(L_16);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_16, L_17, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:183>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:181>
 		EndGameUI_t425849680F045A3F3DFEAEA92A5A7405AD157AA4* L_18 = __this->___endGameUIScript;
 		NullCheck(L_18);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
@@ -6305,23 +6178,23 @@ IL_0027:
 		L_21 = Quaternion_LookRotation_mDB2CCA75B8E1AB98104F2A6E1A1EA57D0D1298D7_inline(L_20, NULL);
 		NullCheck(L_19);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_19, L_21, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:185>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:183>
 		EndGameUI_t425849680F045A3F3DFEAEA92A5A7405AD157AA4* L_22 = __this->___endGameUIScript;
 		NullCheck(L_22);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
 		L_23 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_22, NULL);
 		NullCheck(L_23);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_23, (bool)1, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:186>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:184>
 		EndGameUI_t425849680F045A3F3DFEAEA92A5A7405AD157AA4* L_24 = __this->___endGameUIScript;
 		float L_25 = __this->___elapsedTime;
 		NullCheck(L_24);
 		EndGameUI_OpenEndGameUI_mB86753B4B4FBBD0A5BF0FB6739E9482C70A62C3F(L_24, L_25, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:187>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:185>
 		return;
 	}
 }
-// Method Definition Index: 89343
+// Method Definition Index: 89341
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ResetGameVariablesForNewRun_m7A22773FC70564C0900FFCC2B0A70AB3A260E2A6 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6334,34 +6207,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ResetGameVariablesForNewRun_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:191>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:189>
 		__this->___elapsedTime = (0.0f);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:192>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:190>
 		__this->___gameStarted = (bool)0;
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:193>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:191>
 		__this->___runFinished = (bool)0;
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:194>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:192>
 		__this->___enteredStore = (bool)0;
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:195>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:193>
 		((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___shoppingFinished = (bool)0;
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:196>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:194>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___timerText;
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, _stringLiteral0A34B95F8E5078FF1BF9FF6A63759E0A20270226);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:197>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:195>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___timerText;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
 		L_2 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
 		NullCheck(L_1);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_1, L_2);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:198>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:196>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralCE61E738390FBEEA8A6E7A5A87F1C8B2A02CFC0C, NULL);
-		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:199>
+		//<source_info:C:/Users/donaw/Documents/FER/PIIS/2.SEM/shopping_spree/ShoppingSpreeSimulator/Assets/Scripts/GameManager.cs:197>
 		return;
 	}
 }
-// Method Definition Index: 89344
+// Method Definition Index: 89342
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6379,7 +6252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__ctor_mF453CED520617BFB65C52
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89345
+// Method Definition Index: 89343
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CtweenU3Ed__18__ctor_m0BE1BD2DEAD46AF94419480A7FD00A385639F8B6 (U3CtweenU3Ed__18_tB6E6DAF6DCBCCD33FF756522556BF71AE4162172* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -6389,14 +6262,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CtweenU3Ed__18__ctor_m0BE1BD2DEAD46AF9
 		return;
 	}
 }
-// Method Definition Index: 89346
+// Method Definition Index: 89344
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CtweenU3Ed__18_System_IDisposable_Dispose_m30B5A86B91C36473C60A626F28E044F0BD7ECF80 (U3CtweenU3Ed__18_tB6E6DAF6DCBCCD33FF756522556BF71AE4162172* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 89347
+// Method Definition Index: 89345
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CtweenU3Ed__18_MoveNext_mAB95F0FAE3316269882E4E193D3281CFA52A4CEC (U3CtweenU3Ed__18_tB6E6DAF6DCBCCD33FF756522556BF71AE4162172* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -6477,7 +6350,7 @@ IL_0076:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 89348
+// Method Definition Index: 89346
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CtweenU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m168CC8068308F366B4408778027702BED9555FA9 (U3CtweenU3Ed__18_tB6E6DAF6DCBCCD33FF756522556BF71AE4162172* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6485,7 +6358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CtweenU3Ed__18_System_Collec
 		return L_0;
 	}
 }
-// Method Definition Index: 89349
+// Method Definition Index: 89347
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CtweenU3Ed__18_System_Collections_IEnumerator_Reset_mB5E461150A5F97C56B7CF6E827BD57C036287067 (U3CtweenU3Ed__18_tB6E6DAF6DCBCCD33FF756522556BF71AE4162172* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6494,7 +6367,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CtweenU3Ed__18_System_Collections_IEnu
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CtweenU3Ed__18_System_Collections_IEnumerator_Reset_mB5E461150A5F97C56B7CF6E827BD57C036287067_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 89350
+// Method Definition Index: 89348
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CtweenU3Ed__18_System_Collections_IEnumerator_get_Current_m11F2F178E9DB05775BEEE29615ED902E73C7D8FD (U3CtweenU3Ed__18_tB6E6DAF6DCBCCD33FF756522556BF71AE4162172* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6510,7 +6383,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CtweenU3Ed__18_System_Collec
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89351
+// Method Definition Index: 89349
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Grandma_Start_m875E4FF684A28B468B1F3D8DD4F4B87F16D035AB (Grandma_t07FE6EAFB46137D9EDE077A49E753AF77AD29676* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6591,7 +6464,7 @@ IL_0022:
 		return;
 	}
 }
-// Method Definition Index: 89352
+// Method Definition Index: 89350
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Grandma_Update_mC7FC1FEE66291A81DDBA6CA4B3701DA52ADD8997 (Grandma_t07FE6EAFB46137D9EDE077A49E753AF77AD29676* __this, const RuntimeMethod* method) 
 {
 	Grandma_t07FE6EAFB46137D9EDE077A49E753AF77AD29676* G_B5_0 = NULL;
@@ -6685,7 +6558,7 @@ IL_007f:
 		return;
 	}
 }
-// Method Definition Index: 89353
+// Method Definition Index: 89351
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Grandma_onGrandmaHit_mF882962EF1AAD48101871456571FA73D71A5CE93 (Grandma_t07FE6EAFB46137D9EDE077A49E753AF77AD29676* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_impulse, const RuntimeMethod* method) 
 {
 	RigidbodyU5BU5D_t052E8AB174C34DFD0EBB5E897554DEBB841CC649* V_0 = NULL;
@@ -6761,7 +6634,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 89354
+// Method Definition Index: 89352
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Grandma__ctor_m83FA1DE9B559D5440E22A1DD85E8CF202BFA3A90 (Grandma_t07FE6EAFB46137D9EDE077A49E753AF77AD29676* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6777,7 +6650,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Grandma__ctor_m83FA1DE9B559D5440E22A1DD8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89355
+// Method Definition Index: 89353
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrandmaCollision_OnCollisionEnter_m7D4134AACBBF4069646C60F4B14337291CBBAC12 (GrandmaCollision_tEA56CE486EB08F826D9D0AA2E7C22AE98A953F8F* __this, Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6819,7 +6692,7 @@ IL_0028:
 		return;
 	}
 }
-// Method Definition Index: 89356
+// Method Definition Index: 89354
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrandmaCollision__ctor_m681D986AF267967372DAE128E5923A414B50D861 (GrandmaCollision_tEA56CE486EB08F826D9D0AA2E7C22AE98A953F8F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6835,7 +6708,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrandmaCollision__ctor_m681D986AF2679673
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89357
+// Method Definition Index: 89355
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item_Start_mAF304BC26FB5ED4C69F6534266EE4F082967E4D8 (Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6896,7 +6769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item_Start_mAF304BC26FB5ED4C69F6534266EE
 		return;
 	}
 }
-// Method Definition Index: 89358
+// Method Definition Index: 89356
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item__ctor_m741D59B05082743C60D2F1149112B571E89CAFAF (Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6904,7 +6777,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item__ctor_m741D59B05082743C60D2F1149112
 		return;
 	}
 }
-// Method Definition Index: 89359
+// Method Definition Index: 89357
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item__cctor_m7F139345A7CA6F9A8FBE19EA119854835AFDA3CC (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7098,7 +6971,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item__cctor_m7F139345A7CA6F9A8FBE19EA119
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89360
+// Method Definition Index: 89358
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardEntry__ctor_mF19A7ED62BFFB47193DD211FCE6E13CAD43C9CC6 (LeaderboardEntry_t9F413B28A218D56D7757AE7B75AFDE90617262CA* __this, String_t* ___0_name, float ___1_time, const RuntimeMethod* method) 
 {
 	{
@@ -7123,7 +6996,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardEntry__ctor_mF19A7ED62BFFB471
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89361
+// Method Definition Index: 89359
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardData__ctor_mC70E2628227C74854C6C83D52AE04B2B64BA27B7 (LeaderboardData_t7B60F0C7B165E6EE4692D66F05452CD6B1D78F3A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7151,7 +7024,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardData__ctor_mC70E2628227C74854
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89362
+// Method Definition Index: 89360
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardManager_SaveScore_m35E2B257230C10D5A5976D0F0ABBAF5F5DC8AF7D (String_t* ___0_name, float ___1_time, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7264,7 +7137,7 @@ IL_0069:
 		return;
 	}
 }
-// Method Definition Index: 89363
+// Method Definition Index: 89361
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LeaderboardData_t7B60F0C7B165E6EE4692D66F05452CD6B1D78F3A* LeaderboardManager_LoadLeaderboard_m0F1D1E140B42BD623DBD57A62F088447537B03A7 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7302,7 +7175,7 @@ IL_0012:
 		return L_3;
 	}
 }
-// Method Definition Index: 89364
+// Method Definition Index: 89362
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardManager__ctor_mDD7C7D65BF43D3784B30AF480D17DF87427FE5AF (LeaderboardManager_tCEE53D433AF4E2936DB9C3815CD0644C371E4863* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7318,7 +7191,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardManager__ctor_mDD7C7D65BF43D3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89365
+// Method Definition Index: 89363
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m9AF61A3632BD8C14A844BF75E20D2261AF7596F9 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7335,7 +7208,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m9AF61A3632BD8C14A844BF75
 		return;
 	}
 }
-// Method Definition Index: 89366
+// Method Definition Index: 89364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m3A53FA9C60275545E71235041D3BF5FC99EA85D8 (U3CU3Ec_t8491CAC00159E722F9BD9B5B1242BF95EE4A1B7E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7343,7 +7216,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m3A53FA9C60275545E71235041
 		return;
 	}
 }
-// Method Definition Index: 89367
+// Method Definition Index: 89365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CSaveScoreU3Eb__2_0_m1DAB0B5C88DA7B5F4C4A1D48995AF1A61E2DC2A5 (U3CU3Ec_t8491CAC00159E722F9BD9B5B1242BF95EE4A1B7E* __this, LeaderboardEntry_t9F413B28A218D56D7757AE7B75AFDE90617262CA* ___0_a, LeaderboardEntry_t9F413B28A218D56D7757AE7B75AFDE90617262CA* ___1_b, const RuntimeMethod* method) 
 {
 	{
@@ -7367,7 +7240,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CSaveScoreU3Eb__2_0_m1DAB0B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89368
+// Method Definition Index: 89366
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardPoster_Start_mAE886C7F847B94194CAF61C6353AED182C4FE8D4 (LeaderboardPoster_t24C52A76784E9C9AA8F001C8A7312984A664651E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7377,7 +7250,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardPoster_Start_mAE886C7F847B941
 		return;
 	}
 }
-// Method Definition Index: 89369
+// Method Definition Index: 89367
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardPoster_DisplayLeaderboard_m6263E263CEF9DF0A8EBA7EBE643F8AA9D4706D13 (LeaderboardPoster_t24C52A76784E9C9AA8F001C8A7312984A664651E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7544,7 +7417,7 @@ IL_00da:
 		return;
 	}
 }
-// Method Definition Index: 89370
+// Method Definition Index: 89368
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardPoster__ctor_m33F295CD76BBDF32BD854272AC85105A1D12118E (LeaderboardPoster_t24C52A76784E9C9AA8F001C8A7312984A664651E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7560,7 +7433,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardPoster__ctor_m33F295CD76BBDF3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89371
+// Method Definition Index: 89369
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager_PlayGame_m0537604557915EB17D60E0AAF5F9BF7C551249F9 (MainMenuManager_tF7A52AE15B4646A6080DC28A83B82CB4ACF46B94* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7578,7 +7451,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager_PlayGame_m0537604557915E
 		return;
 	}
 }
-// Method Definition Index: 89372
+// Method Definition Index: 89370
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager_ExitGame_mDD057AB73B8DC2DB4ED4C272EFA7725A1041254B (MainMenuManager_tF7A52AE15B4646A6080DC28A83B82CB4ACF46B94* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7600,7 +7473,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager_ExitGame_mDD057AB73B8DC2
 		return;
 	}
 }
-// Method Definition Index: 89373
+// Method Definition Index: 89371
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager__ctor_m9CF8E7F30CE180004AA0DFF1229FC615B531542B (MainMenuManager_tF7A52AE15B4646A6080DC28A83B82CB4ACF46B94* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7625,7 +7498,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager__ctor_m9CF8E7F30CE180004
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89374
+// Method Definition Index: 89372
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trigger_OnTriggerEnter_mC7FFB01DF557E56C681B1F234A512EA9CD4D25F8 (Trigger_t9FBC4B9D2172AC5785AC296E1CC2CCD678F61DD3* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B* G_B2_0 = NULL;
@@ -7654,7 +7527,7 @@ IL_000b:
 		return;
 	}
 }
-// Method Definition Index: 89375
+// Method Definition Index: 89373
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trigger_OnTriggerExit_mBFFB9E983D56B2ECDF9418EBC93975C11CD29D53 (Trigger_t9FBC4B9D2172AC5785AC296E1CC2CCD678F61DD3* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B* G_B2_0 = NULL;
@@ -7683,7 +7556,7 @@ IL_000b:
 		return;
 	}
 }
-// Method Definition Index: 89376
+// Method Definition Index: 89374
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trigger__ctor_mB2B5CCC97EBE7BF658CA4ABA1BB9A02C964044F4 (Trigger_t9FBC4B9D2172AC5785AC296E1CC2CCD678F61DD3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7699,7 +7572,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trigger__ctor_mB2B5CCC97EBE7BF658CA4ABA1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89377
+// Method Definition Index: 89375
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trolley_Start_m361A11192FDC812FDB32137758C390C2A940CF3A (Trolley_t17E28D4E634D60CF66B0FE03A015D09412E1A268* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7718,7 +7591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trolley_Start_m361A11192FDC812FDB3213775
 		return;
 	}
 }
-// Method Definition Index: 89378
+// Method Definition Index: 89376
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trolley_Update_mA0EC865F2A63F0738936805BF2EE6F25BDB8EA51 (Trolley_t17E28D4E634D60CF66B0FE03A015D09412E1A268* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7753,7 +7626,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trolley_Update_mA0EC865F2A63F0738936805B
 		return;
 	}
 }
-// Method Definition Index: 89379
+// Method Definition Index: 89377
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trolley_addForces_mFF9F9D4F38623104932891D924CEE01763B9D549 (Trolley_t17E28D4E634D60CF66B0FE03A015D09412E1A268* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8019,7 +7892,7 @@ IL_01f1:
 		return;
 	}
 }
-// Method Definition Index: 89380
+// Method Definition Index: 89378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trolley__ctor_m7CCD90771C490BF146941D8049D8A9F8CCD3EDE8 (Trolley_t17E28D4E634D60CF66B0FE03A015D09412E1A268* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8052,7 +7925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trolley__ctor_m7CCD90771C490BF146941D804
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89381
+// Method Definition Index: 89379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_m9D16EE257CFBE94B99037474A7A39A655D1B502F (U3CU3Ec__DisplayClass6_0_tDA035398DA2268D2F758A5326DC44119798C1DD6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8060,7 +7933,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_m9D16EE25
 		return;
 	}
 }
-// Method Definition Index: 89382
+// Method Definition Index: 89380
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass6_0_U3CaddForcesU3Eb__0_mAEB9E50AF4FEAA0C405B0EF087B5BBEDB897F061 (U3CU3Ec__DisplayClass6_0_tDA035398DA2268D2F758A5326DC44119798C1DD6* __this, InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8079,7 +7952,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass6_0_U3CaddForcesU3E
 		return L_2;
 	}
 }
-// Method Definition Index: 89383
+// Method Definition Index: 89381
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass6_0_U3CaddForcesU3Eb__1_m5F08D3856EACD0AB1EBB98B336A2D071CFB4BAD2 (U3CU3Ec__DisplayClass6_0_tDA035398DA2268D2F758A5326DC44119798C1DD6* __this, InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8106,7 +7979,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass6_0_U3CaddForcesU3E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89384
+// Method Definition Index: 89382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrolleyTest_Start_m4A7C3A6156D6596D0159F6601D0637FF3C89C156 (TrolleyTest_tD929FAAACF220DEA88A00123EC3345A42714F36E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8125,7 +7998,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrolleyTest_Start_m4A7C3A6156D6596D0159F
 		return;
 	}
 }
-// Method Definition Index: 89385
+// Method Definition Index: 89383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrolleyTest_Update_mF992693A03C286ECE7FE94B578F140E024CDD238 (TrolleyTest_tD929FAAACF220DEA88A00123EC3345A42714F36E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8373,7 +8246,7 @@ IL_01d3:
 		return;
 	}
 }
-// Method Definition Index: 89386
+// Method Definition Index: 89384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrolleyTest__ctor_mB843257D750CCF5B8A254B771550A6B0E7B88548 (TrolleyTest_tD929FAAACF220DEA88A00123EC3345A42714F36E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8389,7 +8262,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrolleyTest__ctor_mB843257D750CCF5B8A254
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89387
+// Method Definition Index: 89385
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m357C0E448548E8A57AC1A9BB3672943CE57534AB (U3CU3Ec__DisplayClass3_0_t372947408BFC2942F0942D8B8535A08810508333* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8397,7 +8270,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m357C0E44
 		return;
 	}
 }
-// Method Definition Index: 89388
+// Method Definition Index: 89386
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass3_0_U3CUpdateU3Eb__0_m9CC197E1A73003B7A805D5928BE0DC46A2E71E43 (U3CU3Ec__DisplayClass3_0_t372947408BFC2942F0942D8B8535A08810508333* __this, InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8416,7 +8289,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass3_0_U3CUpdateU3Eb__
 		return L_2;
 	}
 }
-// Method Definition Index: 89389
+// Method Definition Index: 89387
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass3_0_U3CUpdateU3Eb__1_m4F2E113477C40FC6A3DA452548B2B9993E6C0E21 (U3CU3Ec__DisplayClass3_0_t372947408BFC2942F0942D8B8535A08810508333* __this, InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8443,7 +8316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass3_0_U3CUpdateU3Eb__
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89390
+// Method Definition Index: 89388
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrolleyTestNonVr_Start_m4D7FDF02A13432CE7F71207F65588AE00122CE58 (TrolleyTestNonVr_t58177A04E4D777C7BE372FD2EC1E7667B92AE378* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8462,7 +8335,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrolleyTestNonVr_Start_m4D7FDF02A13432CE
 		return;
 	}
 }
-// Method Definition Index: 89391
+// Method Definition Index: 89389
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrolleyTestNonVr_Update_m6B9117D68FFF99A7253A3CF278798821E7D094BF (TrolleyTestNonVr_t58177A04E4D777C7BE372FD2EC1E7667B92AE378* __this, const RuntimeMethod* method) 
 {
 	Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* G_B2_0 = NULL;
@@ -8585,7 +8458,7 @@ IL_00ea:
 		return;
 	}
 }
-// Method Definition Index: 89392
+// Method Definition Index: 89390
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrolleyTestNonVr__ctor_mB46CD8DB60930A158B95FB1A5DB0345613E03AD1 (TrolleyTestNonVr_t58177A04E4D777C7BE372FD2EC1E7667B92AE378* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8601,7 +8474,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrolleyTestNonVr__ctor_mB46CD8DB60930A15
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89393
+// Method Definition Index: 89391
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRConsoleLogger_OnEnable_m50367FB53B5A357D9BE14F3EDC25ADD8430E9F54 (VRConsoleLogger_tFC5604DA2B79E559C8B8C3D8EAE5ED5A97F16B24* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8622,7 +8495,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRConsoleLogger_OnEnable_m50367FB53B5A35
 		return;
 	}
 }
-// Method Definition Index: 89394
+// Method Definition Index: 89392
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRConsoleLogger_OnDisable_mA6F8E91B827C9083F6FC9706A4283A58ABC87D74 (VRConsoleLogger_tFC5604DA2B79E559C8B8C3D8EAE5ED5A97F16B24* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8643,7 +8516,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRConsoleLogger_OnDisable_mA6F8E91B827C9
 		return;
 	}
 }
-// Method Definition Index: 89395
+// Method Definition Index: 89393
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRConsoleLogger_HandleLog_m0BAE2CA09A4422F96E9B7C05FC2F48E3FB2563DA (VRConsoleLogger_tFC5604DA2B79E559C8B8C3D8EAE5ED5A97F16B24* __this, String_t* ___0_logString, String_t* ___1_stackTrace, int32_t ___2_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8730,7 +8603,7 @@ IL_0075:
 		return;
 	}
 }
-// Method Definition Index: 89396
+// Method Definition Index: 89394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRConsoleLogger__ctor_m983FFCC4BCA00D111CED35512B55A72D8CCC8C9F (VRConsoleLogger_tFC5604DA2B79E559C8B8C3D8EAE5ED5A97F16B24* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8755,7 +8628,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRConsoleLogger__ctor_m983FFCC4BCA00D111
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89397
+// Method Definition Index: 89395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRKeyboardTrigger_Start_mF97A4C373014462A749BB3B4F6B5C7D5DE98F2E0 (VRKeyboardTrigger_t088015831E867CBE3C8AC87810692A43ED2F5842* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8892,7 +8765,7 @@ IL_00e0:
 		return;
 	}
 }
-// Method Definition Index: 89398
+// Method Definition Index: 89396
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRKeyboardTrigger_OnPointerClick_m44C2872BE7F34F2D8DE0F4EA1B25AE4B44827BC1 (VRKeyboardTrigger_t088015831E867CBE3C8AC87810692A43ED2F5842* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8912,7 +8785,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRKeyboardTrigger_OnPointerClick_m44C287
 		return;
 	}
 }
-// Method Definition Index: 89399
+// Method Definition Index: 89397
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRKeyboardTrigger_LaunchMetaKeyboard_mF7BBD3E1810C809D17BBD1551A77DFA7A15015CA (VRKeyboardTrigger_t088015831E867CBE3C8AC87810692A43ED2F5842* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8961,7 +8834,7 @@ IL_003f:
 		return;
 	}
 }
-// Method Definition Index: 89400
+// Method Definition Index: 89398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRKeyboardTrigger_OnTextCommitted_m2A16768B994ECCD34426D03DECFD1DF6F31DDBC6 (VRKeyboardTrigger_t088015831E867CBE3C8AC87810692A43ED2F5842* __this, String_t* ___0_committedText, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8988,7 +8861,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRKeyboardTrigger_OnTextCommitted_m2A167
 		return;
 	}
 }
-// Method Definition Index: 89401
+// Method Definition Index: 89399
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRKeyboardTrigger_OnKeyboardBackspace_mE3AC375C4244D96FB7B7AF83F89751461118743F (VRKeyboardTrigger_t088015831E867CBE3C8AC87810692A43ED2F5842* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9050,7 +8923,7 @@ IL_0061:
 		return;
 	}
 }
-// Method Definition Index: 89402
+// Method Definition Index: 89400
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRKeyboardTrigger_OnKeyboardEnter_m7EBB19DD83668BFB26300E1DC986535D3EFB5588 (VRKeyboardTrigger_t088015831E867CBE3C8AC87810692A43ED2F5842* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9082,7 +8955,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRKeyboardTrigger_OnKeyboardEnter_m7EBB1
 		return;
 	}
 }
-// Method Definition Index: 89403
+// Method Definition Index: 89401
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRKeyboardTrigger__ctor_m4891EADC7D9D463848148A0D00BCB89EDFBA9720 (VRKeyboardTrigger_t088015831E867CBE3C8AC87810692A43ED2F5842* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9090,7 +8963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRKeyboardTrigger__ctor_m4891EADC7D9D463
 		return;
 	}
 }
-// Method Definition Index: 89404
+// Method Definition Index: 89402
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRKeyboardTrigger_U3CStartU3Eb__2_0_m120FEDE164621E3D865CD08219E204AE35C4EED2 (VRKeyboardTrigger_t088015831E867CBE3C8AC87810692A43ED2F5842* __this, String_t* ___0_U3Cp0U3E, const RuntimeMethod* method) 
 {
 	{
@@ -9108,7 +8981,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRKeyboardTrigger_U3CStartU3Eb__2_0_m120
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89405
+// Method Definition Index: 89403
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9124,7 +8997,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89406
+// Method Definition Index: 89404
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9140,7 +9013,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89407
+// Method Definition Index: 89405
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9174,7 +9047,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC
 		return L_6;
 	}
 }
-// Method Definition Index: 89408
+// Method Definition Index: 89406
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9338,7 +9211,7 @@ IL_000c:
 		return L_2;
 	}
 }
-// Method Definition Index: 78997
+// Method Definition Index: 78995
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline (Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9347,53 +9220,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1
 		return L_0;
 	}
 }
-// Method Definition Index: 70162
+// Method Definition Index: 70160
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* TMP_InputField_get_text_mA4ACBF52435893D9DFD822A492454301740B3C6A_inline (TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:./Library/PackageCache/com.unity.ugui@b9d1dd437cb9/Runtime/TMP/TMP_InputField.cs:595>
 		String_t* L_0 = __this->___m_Text;
-		return L_0;
-	}
-}
-// Method Definition Index: 50118
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
-		return L_0;
-	}
-}
-// Method Definition Index: 50086
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
-{
-	{
-		float L_0 = ___0_x;
-		__this->___x = L_0;
-		float L_1 = ___1_y;
-		__this->___y = L_1;
-		float L_2 = ___2_z;
-		__this->___z = L_2;
-		return;
-	}
-}
-// Method Definition Index: 50160
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields*)il2cpp_codegen_static_fields_for(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))->___identityQuaternion;
 		return L_0;
 	}
 }
@@ -9843,7 +9675,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D
 		return L_0;
 	}
 }
-// Method Definition Index: 70191
+// Method Definition Index: 70189
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SelectionEvent_t8FC75B869F70C9F0BF13390AD0237AD310511119* TMP_InputField_get_onSelect_m6762226148A4B3265EE5FD70ED894BBE8DE86AF0_inline (TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9904,7 +9736,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueTuple_2_tC290D1473EEF2960484
 		return L_0;
 	}
 }
-// Method Definition Index: 88044
+// Method Definition Index: 88042
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m139A176CD271A0532D75BE08DA7831C8C45CE28F_gshared_inline (Enumerator_t72556E98D7DDBE118A973D782D523D15A96461C8* __this, const RuntimeMethod* method) 
 {
 	{

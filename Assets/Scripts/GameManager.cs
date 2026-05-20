@@ -102,13 +102,11 @@ public class GameManager : MonoBehaviour
 
         Debug.Log($"[EXIT STATUS] Player verified! shoppingFinished: {shoppingFinished} | runFinished: {runFinished}");
 
-        // FIX: Now this will pass cleanly because runFinished is still FALSE when you arrive!
         if (shoppingFinished && !runFinished)
         {
-            runFinished = true; // Mark it finished here at the actual exit door
+            runFinished = true;
             timerText.color = Color.green;
 
-            // Open the exit doors up for the celebration
             StartCoroutine(tween(doorLeft, 0.7f, doorLeft.position, doorLeft.position + doorLeft.right * 1.3f));
             StartCoroutine(tween(doorRight, 0.7f, doorRight.position, doorRight.position - doorLeft.right * 1.3f));
 
