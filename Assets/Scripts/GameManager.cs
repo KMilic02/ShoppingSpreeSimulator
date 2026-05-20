@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        FindObjectOfType<EndGameUI>().OpenEndGameUI(95f);
         entranceTrigger.onTriggerEnterAction = onDoorEntranceEnter;
         entranceTrigger.onTriggerExitAction = onDoorEntranceExit;
         exitTrigger.onTriggerEnterAction = onDoorExitEnter;
