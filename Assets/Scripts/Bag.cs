@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Oculus.Interaction.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -9,6 +10,7 @@ public class Bag : MonoBehaviour
     public BagUI bagUI;
     
     HashSet<Item> itemsInBag = new HashSet<Item>();
+    public HashSet<Item> itemsInBagPersistent = new HashSet<Item>();
     List<(Item.Category, int)> itemsRequired = new List<(Item.Category, int)>();
     
     void Start()
@@ -19,6 +21,11 @@ public class Bag : MonoBehaviour
 
         randomizeRequiredItems();
         bagUI.initUI(itemsRequired);
+    }
+
+    void LateUpdate()
+    {
+        itemsInBagPersistent = new HashSet<Item>(itemsInBag);
     }
 
     void randomizeRequiredItems()
@@ -54,13 +61,13 @@ public class Bag : MonoBehaviour
         }
     }
 
-    void addItemToBag(Item item)
+    public void addItemToBag(Item item)
     {
         itemsInBag.Add(item);
         bagUI.updateUI(itemsInBag, itemsRequired);
     }
 
-    void removeItemFromBag(Item item)
+    public void removeItemFromBag(Item item)
     {
         itemsInBag.Remove(item);
         bagUI.updateUI(itemsInBag, itemsRequired);

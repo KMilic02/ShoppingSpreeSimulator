@@ -127,11 +127,15 @@ public class ModeSelection : MonoBehaviour
                 player.GetComponent<Rigidbody>().isKinematic = false;
                 player.GetComponent<Trolley>().enabled = true;
                 bag.bagTrigger = trolleyTrigger;
+                bag.bagTrigger.onTriggerEnterAction = bag.addItemToBag;
+                bag.bagTrigger.onTriggerExitAction = bag.removeItemFromBag;
             }
 
             if (selected == Selected.Basket)
             {
                 bag.bagTrigger = basketTrigger;
+                bag.bagTrigger.onTriggerEnterAction = bag.addItemToBag;
+                bag.bagTrigger.onTriggerExitAction = bag.removeItemFromBag;
                 if (basketRightHanded)
                 {
                     basketRHandComponents.ForEach(x => x.SetActive(true));
