@@ -17,6 +17,9 @@ public class ModeSelection : MonoBehaviour
     public List<GameObject> basketComponents;
     public List<GameObject> trolleyComponents;
 
+    public List<GameObject> basketLHandComponents;
+    public List<GameObject> basketRHandComponents;
+
 
     public HandVisual lHandVisual;
     public HandVisual rHandVisual;
@@ -36,6 +39,12 @@ public class ModeSelection : MonoBehaviour
     float timer = 0.0f;
     bool transition;
     bool fadeIn;
+    
+    public static bool basketRightHanded;
+
+    public Bag bag;
+    public BagTrigger basketTrigger;
+    public BagTrigger trolleyTrigger;
     
     void Update()
     {
@@ -59,6 +68,7 @@ public class ModeSelection : MonoBehaviour
             lHand = lHandVisual.Root.gameObject;
             if (!lastFrameGripping && gripping)
             {
+                basketRightHanded = false;
                 select(lHand);
                 return;
             }
@@ -69,6 +79,7 @@ public class ModeSelection : MonoBehaviour
             rHand = rHandVisual.Root.gameObject;
             if (!lastFrameGripping && gripping)
             {
+                basketRightHanded = true;
                 select(rHand);
                 return;
 
@@ -115,6 +126,20 @@ public class ModeSelection : MonoBehaviour
             {
                 player.GetComponent<Rigidbody>().isKinematic = false;
                 player.GetComponent<Trolley>().enabled = true;
+                bag.bagTrigger = trolleyTrigger;
+            }
+
+            if (selected == Selected.Basket)
+            {
+                bag.bagTrigger = basketTrigger;
+                if (basketRightHanded)
+                {
+                    basketRHandComponents.ForEach(x => x.SetActive(true));
+                }
+                else
+                {
+                    basketLHandComponents.ForEach(x => x.SetActive(true));
+                }
             }
         }
 

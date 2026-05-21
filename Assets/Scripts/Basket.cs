@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Basket : MonoBehaviour
 {
-    public HandVisual handVisual; //treba napravit da bude ona ruka koja uzme kosaru
+    public HandVisual handVisualL;
+    public HandVisual handVisualR;
     public Rigidbody anchoredBody;
     
     Vector3 previousPosition = Vector3.zero;
     
-    const float swingForce = 120.0f;
+    const float swingForce = 150.0f;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,8 +21,12 @@ public class Basket : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        var handVisual = ModeSelection.basketRightHanded ? handVisualR : handVisualL;
         var target = handVisual.GetTransformByHandJointId(HandJointId.HandMiddle2);
         transform.position = target.position + transform.forward * 0.2f;
+
+        var jointRotation = target.rotation.eulerAngles;
+        transform.rotation = Quaternion.Euler(0.0f, jointRotation.y + 90.0f, 0.0f);
 
         if (Vector3.Distance(transform.position, previousPosition) < 0.2f)
         {
