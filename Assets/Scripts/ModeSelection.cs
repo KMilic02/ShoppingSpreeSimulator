@@ -17,6 +17,7 @@ public class ModeSelection : MonoBehaviour
     public GameObject shoppingListPosBasketL;
     public GameObject shoppingListPosBasketR;
     public GameObject shoppingListPosTrolley;
+    public GameObject instructionsCanvas;
     
     public List<GameObject> basketComponents;
     public List<GameObject> trolleyComponents;
@@ -112,6 +113,12 @@ public class ModeSelection : MonoBehaviour
     {
         selected = selection;
         transition = true;
+        
+        if (instructionsCanvas != null) 
+        {
+            instructionsCanvas.SetActive(false);
+        }
+        
         OVRScreenFade.instance.FadeOut();
     }
 
