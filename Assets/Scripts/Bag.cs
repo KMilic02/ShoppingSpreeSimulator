@@ -39,7 +39,7 @@ public class Bag : MonoBehaviour
         // Debug.Log($"[BAG TEST MODE] Required items overridden! You only need to collect {quantityRequired} x {testCategory} to finish.");
         
         Array values = Enum.GetValues(typeof(Item.Category));
-        var randomCount = Random.Range(3, 4);
+        var randomCount = Random.Range(2, 4);
         
         int[] enumValues = new int[values.Length];
         for (int i = 0; i < values.Length; i++)
@@ -57,7 +57,7 @@ public class Bag : MonoBehaviour
         
         for (int i = 0; i < randomCount; i++)
         {
-            itemsRequired.Add(((Item.Category) enumValues[i], Random.Range(2, 5)));
+            itemsRequired.Add(((Item.Category) enumValues[i], Random.Range(1, 4)));
         }
     }
 
