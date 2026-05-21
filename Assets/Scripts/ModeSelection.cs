@@ -94,11 +94,11 @@ public class ModeSelection : MonoBehaviour
         var distFromBasket = Vector3.Distance(basket.position, hand.transform.position);
         var distFromTrolley = Vector3.Distance(trolley.position, hand.transform.position);
 
-        if (distFromBasket < 1.0f)
+        if (distFromBasket < 0.4f)
         {
             select(Selected.Basket);
         }
-        else if (distFromTrolley < 1.0f)
+        else if (distFromTrolley < 0.4f)
         {
             select(Selected.Trolley);
         }

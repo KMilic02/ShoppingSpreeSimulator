@@ -25,7 +25,7 @@ public class Basket : MonoBehaviour
     {
         var handVisual = ModeSelection.basketRightHanded ? handVisualR : handVisualL;
         var target = handVisual.GetTransformByHandJointId(HandJointId.HandMiddle2);
-        transform.position = target.position + transform.forward * 0.2f;
+        transform.position = target.position + (ModeSelection.basketRightHanded ? transform.forward * 0.2f : -transform.forward * 0.2f);
 
         var jointRotation = target.rotation.eulerAngles;
         transform.rotation = Quaternion.Euler(0.0f, jointRotation.y + 90.0f, 0.0f);

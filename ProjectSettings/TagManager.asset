@@ -12,6 +12,13 @@ TagManager:
   - QDSUIToggleCheckboxRadio
   - QDSUITooltip
   - QDSUISharedThemeColor
+  - QDSUIToggleSwitch
+  - QDSUIAccentColor
+  - QDSUIBorderlessButton
+  - QDSUISecondaryButton
+  - QDSUIBackplateGradient
+  - QDSUISection
+  - SamplesInfoPanel
   layers:
   - Default
   - TransparentFX
@@ -19,7 +26,7 @@ TagManager:
   - Overlay UI
   - Water
   - UI
-  - 
+  - TeleportIgnore
   - 
   - 
   - 
