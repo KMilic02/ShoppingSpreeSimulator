@@ -13,6 +13,10 @@ public class ModeSelection : MonoBehaviour
     }
 
     public GameObject player;
+    public GameObject shoppingList;
+    public GameObject shoppingListPosBasketL;
+    public GameObject shoppingListPosBasketR;
+    public GameObject shoppingListPosTrolley;
     
     public List<GameObject> basketComponents;
     public List<GameObject> trolleyComponents;
@@ -129,6 +133,9 @@ public class ModeSelection : MonoBehaviour
                 bag.bagTrigger = trolleyTrigger;
                 bag.bagTrigger.onTriggerEnterAction = bag.addItemToBag;
                 bag.bagTrigger.onTriggerExitAction = bag.removeItemFromBag;
+                shoppingList.transform.position = shoppingListPosTrolley.transform.position;
+                shoppingList.transform.parent = shoppingListPosTrolley.transform;
+                shoppingList.transform.localRotation = Quaternion.identity;
             }
 
             if (selected == Selected.Basket)
@@ -139,11 +146,16 @@ public class ModeSelection : MonoBehaviour
                 if (basketRightHanded)
                 {
                     basketRHandComponents.ForEach(x => x.SetActive(true));
+                    shoppingList.transform.position = shoppingListPosBasketR.transform.position;
+                    shoppingList.transform.parent = shoppingListPosBasketR.transform;
                 }
                 else
                 {
                     basketLHandComponents.ForEach(x => x.SetActive(true));
+                    shoppingList.transform.position = shoppingListPosBasketL.transform.position;
+                    shoppingList.transform.parent = shoppingListPosBasketL.transform;
                 }
+                shoppingList.transform.localRotation = Quaternion.identity;
             }
         }
 
