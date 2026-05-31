@@ -9,15 +9,24 @@ public class Bag : MonoBehaviour
     public BagTrigger bagTrigger;
     public BagUI bagUI;
     
+    public AudioSource audioSource;
+    public AudioClip pickupClip;
+    public AudioClip completeClip;
+
     HashSet<Item> itemsInBag = new HashSet<Item>();
     public HashSet<Item> itemsInBagPersistent = new HashSet<Item>();
     List<(Item.Category, int)> itemsRequired = new List<(Item.Category, int)>();
     
+    bool completionSoundPlayed;
+
     void Start()
     {
         GameManager.shoppingFinished = false;
         bagTrigger.onTriggerEnterAction = addItemToBag;
         bagTrigger.onTriggerExitAction = removeItemFromBag;
+
+        if (audioSource == null)
+            audioSource = GetComponent<AudioSource>();
 
         randomizeRequiredItems();
         bagUI.initUI(itemsRequired);
@@ -61,15 +70,38 @@ public class Bag : MonoBehaviour
         }
     }
 
+    void PlaySound(AudioClip clip)
+    {
+        if (clip == null || audioSource == null) return;
+        audioSource.PlayOneShot(clip);
+    }
+
     public void addItemToBag(Item item)
     {
         itemsInBag.Add(item);
+
+        if (itemsRequired.Exists(x => x.Item1 == item.category))
+        {
+            PlaySound(pickupClip);
+        }
+        
         bagUI.updateUI(itemsInBag, itemsRequired);
+        
+        if (GameManager.shoppingFinished && !completionSoundPlayed)
+        {
+            completionSoundPlayed = true;
+            PlaySound(completeClip);
+        }
     }
 
     public void removeItemFromBag(Item item)
     {
         itemsInBag.Remove(item);
         bagUI.updateUI(itemsInBag, itemsRequired);
+
+        if (!GameManager.shoppingFinished)
+        {
+            completionSoundPlayed = false;
+        }
     }
 }
