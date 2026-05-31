@@ -14905,6 +14905,7 @@ GameObject:
   - component: {fileID: 314189578}
   - component: {fileID: 314189577}
   - component: {fileID: 314189580}
+  - component: {fileID: 314189582}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -14988,6 +14989,20 @@ MonoBehaviour:
   m_SendPointerHoverToParent: 1
   _useInitialPressPositionForDrag: 1
   _exclusiveMode: 1
+--- !u!114 &314189582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314189576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d303784bdff9547fdbee771179a9ebfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIGraphicRaycastDebugger
+  eventSystem: {fileID: 314189578}
+  raycaster: {fileID: 0}
 --- !u!1001 &315494857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -110423,6 +110438,7 @@ MonoBehaviour:
   audioSource: {fileID: 2020169840}
   pickupClip: {fileID: 8300000, guid: 79180f511d89441b9aa23ccae1992fe0, type: 3}
   completeClip: {fileID: 8300000, guid: 52320e590bf774734a288886eba557ba, type: 3}
+  audioVolume: 1
 --- !u!82 &2020169840
 AudioSource:
   m_ObjectHideFlags: 0
