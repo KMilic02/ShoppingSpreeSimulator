@@ -54,6 +54,7 @@ public class BagUI : MonoBehaviour
 
             if (collectedCount == requiredCount)
             {
+                uiText.fontStyle = FontStyles.Strikethrough;
                 uiText.fontStyle = FontStyles.Normal; 
                 uiText.color = Color.green;
                 completedCategories++;

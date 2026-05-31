@@ -12,6 +12,7 @@ public class Bag : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip pickupClip;
     public AudioClip completeClip;
+    public float audioVolume = 1f;
 
     HashSet<Item> itemsInBag = new HashSet<Item>();
     public HashSet<Item> itemsInBagPersistent = new HashSet<Item>();
@@ -27,6 +28,9 @@ public class Bag : MonoBehaviour
 
         if (audioSource == null)
             audioSource = GetComponent<AudioSource>();
+
+        if (audioSource != null)
+        audioSource.volume = audioVolume;    
 
         randomizeRequiredItems();
         bagUI.initUI(itemsRequired);
@@ -70,10 +74,17 @@ public class Bag : MonoBehaviour
         }
     }
 
+    public void SetVolume(float volume)
+    {
+        audioVolume = Mathf.Clamp01(volume);
+        if (audioSource != null)
+            audioSource.volume = audioVolume;
+    }   
+
     void PlaySound(AudioClip clip)
     {
         if (clip == null || audioSource == null) return;
-        audioSource.PlayOneShot(clip);
+        audioSource.PlayOneShot(clip, audioVolume);
     }
 
     public void addItemToBag(Item item)
