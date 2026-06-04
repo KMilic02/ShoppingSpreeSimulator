@@ -32,7 +32,6 @@ public class Basket : MonoBehaviour
 
         foreach (var item in bag.itemsInBagPersistent)
         {
-            Debug.Log("here");
             item.transform.position += transform.position - previousPosition;
         }
         

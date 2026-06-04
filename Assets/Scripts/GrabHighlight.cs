@@ -11,26 +11,37 @@ public class GrabHighlight : MonoBehaviour
     public float outlineWidth = 5f;
 
     private Outline outline;
-    private HandGrabInteractable interactable;
+    private Grabbable interactable;
+
+    bool initialized;
 
     private void Awake()
     {
-        interactable = GetComponent<HandGrabInteractable>();
+    }
 
-        outline = gameObject.AddComponent<Outline>();
-        outline.OutlineMode = Outline.Mode.OutlineAll;
-        outline.OutlineWidth = outlineWidth;
-        outline.enabled = false;
+    void Update()
+    {
+        if (initialized)
+            return;
+        
+        if (TryGetComponent<Grabbable>(out interactable))
+        {
+            outline = gameObject.AddComponent<Outline>();
+            outline.OutlineMode = Outline.Mode.OutlineAll;
+            outline.OutlineWidth = outlineWidth;
+            outline.enabled = false;
+            interactable.WhenPointerEventRaised += HandlePointerEvent;
+            initialized = true;
+        }
     }
 
     private void OnEnable()
     {
-        interactable.WhenPointerEventRaised += HandlePointerEvent;
     }
 
     private void OnDisable()
     {
-        interactable.WhenPointerEventRaised -= HandlePointerEvent;
+        //interactable.WhenPointerEventRaised -= HandlePointerEvent;
     }
 
     private void HandlePointerEvent(PointerEvent evt)
@@ -43,16 +54,15 @@ public class GrabHighlight : MonoBehaviour
                 break;
 
             case PointerEventType.Unhover:
-                if(interactable.SelectingInteractors.Count == 0)
-                    outline.enabled = false;
+                outline.enabled = false;
                 break;
-
             case PointerEventType.Select:
                 outline.OutlineColor = grabColor;
                 break;
 
             case PointerEventType.Unselect:
-                outline.enabled = false;
+                outline.OutlineColor = hoverColor;
+                //outline.enabled = false;
                 break;
 
             case PointerEventType.Cancel:
