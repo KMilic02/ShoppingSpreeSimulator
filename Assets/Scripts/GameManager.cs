@@ -181,7 +181,7 @@ public class GameManager : MonoBehaviour
         endGameUIScript.transform.rotation = Quaternion.LookRotation(lookDirection);
 
         endGameUIScript.gameObject.SetActive(true);
-        endGameUIScript.OpenEndGameUI(elapsedTime); 
+        endGameUIScript.OpenEndGameUI(elapsedTime, GameModeManager.SelectedMode); 
     }
     
     public void ResetGameVariablesForNewRun()

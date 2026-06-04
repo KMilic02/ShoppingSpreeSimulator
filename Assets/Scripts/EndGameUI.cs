@@ -11,10 +11,12 @@ public class EndGameUI : MonoBehaviour
     public GameObject leaderboardPosterDisplay;
 
     private float finalTime;
+    private GameMode currentGameMode;
 
-    public void OpenEndGameUI(float rawTime)
+    public void OpenEndGameUI(float rawTime, GameMode mode)
     {
         finalTime = rawTime;
+        currentGameMode = mode;
         gameObject.SetActive(true);
 
         int minutes = Mathf.FloorToInt(finalTime / 60);
@@ -30,13 +32,14 @@ public class EndGameUI : MonoBehaviour
         Debug.Log("[END GAME UI] Submit score sequence started!");
 
         string playerName = string.IsNullOrEmpty(nameInputField.text) ? "Anonymous" : nameInputField.text;
-        LeaderboardManager.SaveScore(playerName, finalTime);
+        LeaderboardManager.SaveScore(playerName, finalTime, currentGameMode);
 
         if (leaderboardPosterDisplay != null)
         {
             LeaderboardPoster posterScript = leaderboardPosterDisplay.GetComponent<LeaderboardPoster>();
             if (posterScript != null)
             {
+                posterScript.gameMode = currentGameMode;
                 posterScript.DisplayLeaderboard();
             }
         }

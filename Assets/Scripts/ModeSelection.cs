@@ -135,6 +135,7 @@ public class ModeSelection : MonoBehaviour
             
             if (selected == Selected.Trolley)
             {
+                GameModeManager.SelectedMode = GameMode.Trolley;
                 player.GetComponent<Rigidbody>().isKinematic = false;
                 player.GetComponent<Trolley>().enabled = true;
                 bag.bagTrigger = trolleyTrigger;
@@ -147,6 +148,7 @@ public class ModeSelection : MonoBehaviour
 
             if (selected == Selected.Basket)
             {
+                GameModeManager.SelectedMode = GameMode.Basket;
                 bag.bagTrigger = basketTrigger;
                 bag.bagTrigger.onTriggerEnterAction = bag.addItemToBag;
                 bag.bagTrigger.onTriggerExitAction = bag.removeItemFromBag;

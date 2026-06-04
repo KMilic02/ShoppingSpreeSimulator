@@ -15,6 +15,12 @@ public class LeaderboardEntry
     }
 }
 
+public enum GameMode
+{
+    Basket,
+    Trolley
+}
+
 [Serializable]
 public class LeaderboardData
 {
@@ -23,12 +29,14 @@ public class LeaderboardData
 
 public class LeaderboardManager : MonoBehaviour
 {
-    private const string SaveKey = "SupermarketLeaderboard";
     private const int MaxEntries = 5;
 
-    public static void SaveScore(string name, float time)
+    public static string GetKey(GameMode mode) => $"Leaderboard_{mode}";
+
+    public static void SaveScore(string name, float time, GameMode mode)
     {
-        LeaderboardData data = LoadLeaderboard();
+        string key = GetKey(mode);
+        LeaderboardData data = LoadLeaderboard(mode);
         data.entries.Add(new LeaderboardEntry(name, time));
 
         data.entries.Sort((a, b) => a.completionTime.CompareTo(b.completionTime));
@@ -39,16 +47,17 @@ public class LeaderboardManager : MonoBehaviour
         }
 
         string json = JsonUtility.ToJson(data);
-        PlayerPrefs.SetString(SaveKey, json);
+        PlayerPrefs.SetString(key, json);
         PlayerPrefs.Save();
     }
 
-    public static LeaderboardData LoadLeaderboard()
+    public static LeaderboardData LoadLeaderboard(GameMode mode)
     {
-        if (!PlayerPrefs.HasKey(SaveKey))
+        string key = GetKey(mode);
+        if (!PlayerPrefs.HasKey(key))
             return new LeaderboardData();
 
-        string json = PlayerPrefs.GetString(SaveKey);
+        string json = PlayerPrefs.GetString(key);
         return JsonUtility.FromJson<LeaderboardData>(json);
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 public class LeaderboardPoster : MonoBehaviour
 {
     public TMP_Text[] entryRows; // Link your 5 row text components here in Inspector
+    public GameMode gameMode = GameMode.Basket;
 
     void Start()
     {
@@ -12,7 +13,7 @@ public class LeaderboardPoster : MonoBehaviour
 
     public void DisplayLeaderboard()
     {
-        LeaderboardData data = LeaderboardManager.LoadLeaderboard();
+        LeaderboardData data = LeaderboardManager.LoadLeaderboard(gameMode);
 
         // Initialize all rows as empty dashes
         for (int i = 0; i < entryRows.Length; i++)
