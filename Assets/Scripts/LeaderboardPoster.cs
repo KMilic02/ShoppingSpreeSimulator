@@ -1,5 +1,6 @@
 ﻿using TMPro;
 using UnityEngine;
+using System;
 
 public class LeaderboardPoster : MonoBehaviour
 {
@@ -8,6 +9,11 @@ public class LeaderboardPoster : MonoBehaviour
 
     void Start()
     {
+        if (PlayerPrefs.HasKey("LastMode"))
+        {
+            string saved = PlayerPrefs.GetString("LastMode");
+            gameMode = (GameMode)Enum.Parse(typeof(GameMode), saved);
+        }
         DisplayLeaderboard();
     }
 

@@ -62,6 +62,9 @@ public class EndGameUI : MonoBehaviour
             gm.ResetGameVariablesForNewRun();
         }
 
+        PlayerPrefs.SetString("LastMode", currentGameMode.ToString());
+        PlayerPrefs.Save();
+
         Debug.Log("[END GAME UI] Reloading active scene file...");
         Scene activeScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(activeScene.name);
